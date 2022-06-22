@@ -1,5 +1,7 @@
+// SPECIAL :: RETURNS TAGS
+// ONLY UNDERSTOOD BY REACT.
 function App() {
-  return "Hello World";
+  return <h1>Hello World, Hello World</h1>;
 }
 
 export default App;
