@@ -1,7 +1,7 @@
 // SPECIAL :: RETURNS TAGS :: JSX
 // ONLY UNDERSTOOD BY REACT.
 function App() {
-  return <h1>Hello World, Hello World</h1>;
+  return <h1>Hello World Again!</h1>;
 }
 
 export default App;
