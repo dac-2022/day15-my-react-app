@@ -2,18 +2,21 @@ import { useState } from "react";
 
 function App() {
   let title = "Counter Application";
-  let [counter, setCounter] = useState(100);
 
-  let likeMe = () => {
-    counter += 1;
-    setCounter(counter);
-  };
+  let counter1 = 0;
+  let [counter, setCOunter] = useState(0);
+
+  let str1 = "hello";
+  let [str, setStr] = useState("Hello");
+
+  let list1 = [];
+  let [list, setList] = useState([]);
 
   return (
     <div>
       <h1>{title}</h1>
-      <h1>{counter}</h1>
-      <input type="button" value="Like Me!" onClick={likeMe} />
+
+      <input type="button" value="Add More Element!" />
     </div>
   );
 }
