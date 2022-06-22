@@ -1,16 +1,15 @@
-// SPECIAL :: RETURNS TAGS :: JSX
-// ()
-// We put JSX under ()
-// IMP! RULE
-// There can be only ONE parent tag.
-// Can't return siblings.
 function App() {
+  let price = 100;
+  let str = "CDAC";
+  let active = true;
+  let list = ["A", "B"];
+  let ref = { name: "rahul" };
+
   return (
-    <div>
-      <div>
-        <h1>Hello World</h1>
-      </div>
-    </div>
+    <h1>
+      hello World {price} {str} {active} {list}
+      {ref.name}
+    </h1>
   );
 }
 
