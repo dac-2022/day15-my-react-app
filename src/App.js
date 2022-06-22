@@ -1,4 +1,4 @@
-// SPECIAL :: RETURNS TAGS
+// SPECIAL :: RETURNS TAGS :: JSX
 // ONLY UNDERSTOOD BY REACT.
 function App() {
   return <h1>Hello World, Hello World</h1>;
